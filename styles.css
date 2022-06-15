@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font: 400 16px/1.6 'Open Sans', sans-serif;
+  color: #333;
+}
+body {
+  font-size: 1.6rem;
+}
+input, button {
+  font-size: 1.6rem;
+  font-family: 'Open Sans', sans-serif;
+}
+#qrcode-container {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+}
+
+#qrcode-container .qrcode-box{
+  width: 500px;
+  border: 1px solid #333;
+  background: skyblue;
+}
+#qrcode-container .qrcode-box h1{
+  text-align: center;
+}
+#qrcode-container .qrcode-box form{
+  text-align: center;
+}
+#qrcode-container .qrcode-box form {
+  text-align: center;
+}
+#qrcode-container #qrcode, .cod-atv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
